@@ -41,6 +41,10 @@
                     Clicked="OnTestConnectionClicked"
                     HorizontalOptions="Fill"/>
 
+            <Button Text="View Personal"
+                    Clicked="OpenViewPersonal"
+                    HorizontalOptions="Fill"/>
+
         </VerticalStackLayout>
     </ScrollView>
 

@@ -15,7 +15,7 @@ namespace Module07DataAccess.ViewModel
     public class PersonalViewModel : INotifyPropertyChanged
     {
         private readonly PersonalService _personalService;
-        public ObservableCollection<Personal>PersonalList { get; set; }
+        public ObservableCollection<Personal> PersonalList { get; set; }
 
         private bool _isBusy;
         

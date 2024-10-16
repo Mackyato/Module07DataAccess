@@ -38,6 +38,11 @@ namespace Module07DataAccess
             }
         }
 
+        private async void OpenViewPersonal(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("//ViewPersonal");
+        }
+
         private void OnCounterClicked(object sender, EventArgs e)
         {
             count++;
